@@ -10,13 +10,14 @@ export const Edit = () => {
         let Title = utitle.current.value;
 
         let Task = { Title, Para }
-        fetch(" http://localhost:5000/publish",
+        fetch(" http://localhost:5000/Publish",
             {
                 method: "POST",
                 headers: { "content-Type": "application/json" },
                 body: JSON.stringify(Task)
             })
         window.location.reload();
+        // to reload the page
     }
 
     return (

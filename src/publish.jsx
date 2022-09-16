@@ -5,7 +5,7 @@ import { useEffect } from 'react'
  
  export const Publish = () => {
     let [publish,setpublish]=useState([])
- useEffect(()=>{axios.get("http://localhost:5000/publish")
+ useEffect(()=>{axios.get("http://localhost:5000/Publish")
  .then((resp)=>{setpublish(resp.data);})
  
  .catch((error)=>{
