@@ -1,0 +1,22 @@
+.HomePublish{
+    display: flex;
+  margin-left: 300px;
+  margin-top: 40px;
+  border: 2px solid black;
+  padding: 20px 20px;
+  width: max-content;
+  background:linear-gradient(to right,wheat 10%,cyan 31%,whitesmoke 34%,whitesmoke 100% );
+}
+.Form{
+    display: grid;
+}
+.Publish{
+    margin-left:100px ;
+}
+.Desc{
+    margin-top: 30px;
+    border: 1px solid black;
+    padding: 10px;
+    text-align: left;
+
+}
